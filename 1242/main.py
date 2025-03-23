@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+
 def find_werewolf_suspects(n, relationships, victims):
     ancestors = defaultdict(set)
     children = defaultdict(set)
